@@ -44,5 +44,5 @@ curl https://get.acme.sh | sh
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
 ```
-x-ui restart
+x-ui enable
 ```
