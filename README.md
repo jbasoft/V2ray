@@ -14,6 +14,13 @@ Install Apache 2 for check IP is accessible or not
 apt install apache2
 ```
 
+after Check it stop apache 2:
+
+```
+sudo service apache2 stop
+```
+
+
 **Step3**
 ```
 apt install curl socat -y
