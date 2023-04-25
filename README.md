@@ -7,6 +7,7 @@ apt update && apt upgrade -y
 ```
  
 **Step2**
+Install Apache 2 for check IP is accessible or not
 ```
 apt install apache2
 ```
