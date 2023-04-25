@@ -11,11 +11,10 @@ apt update && apt upgrade -y
 apt install apache2
 ```
 
-** Step3 **
+**Step3**
 ```
 apt install curl socat -y
 ```
-
 ```
 curl https://get.acme.sh | sh
 ```
