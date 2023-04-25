@@ -38,6 +38,9 @@ curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh --issue -d host.mydomain.com --standalone
 ```
 ```
+~/.acme.sh/acme.sh --installcert -d host.mydomain.com --key-file /root/private.key --fullchain-file /root/cert.crt
+```
+```
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
 ```
