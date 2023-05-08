@@ -17,8 +17,7 @@ apt install apache2
 after Check it stop apache 2:
 
 ```
-sudo service apache2 stop
-sudo apt-get remove apache2
+sudo service apache2 stop && sudo apt-get remove apache2
 ```
 
 
