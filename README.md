@@ -1,5 +1,5 @@
 # V2ray
-v2ray Config
+v2ray config helper
 
 **Step1**
 ```
@@ -41,7 +41,7 @@ curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh --installcert -d host.mydomain.com --key-file /root/private.key --fullchain-file /root/cert.crt
 ```
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/jbasoft/x-ui/master/install.sh)
 ```
 ```
 x-ui enable
