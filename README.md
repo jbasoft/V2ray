@@ -1,27 +1,12 @@
 # V2ray
 v2ray config helper
 
-**Step1**
+**dynamic setup**
 ```
-apt update && apt upgrade -y
+bash <(curl -Ls https://raw.githubusercontent.com/jbasoft/V2ray/main/install.sh)
 ```
  
-**Step2**
-<sub>
-Install Apache 2 for check IP is accessible or not
- </sub>
-```
-apt install apache2
-```
-
-after Check it stop apache 2:
-
-```
-sudo service apache2 stop && sudo apt-get remove apache2
-```
-
-
-**Step3**
+**Or Manual Setup**
 ```
 apt install curl socat -y
 ```
@@ -41,7 +26,7 @@ curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh --installcert -d host.mydomain.com --key-file /root/private.key --fullchain-file /root/cert.crt
 ```
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/jbasoft/x-ui/master/install.sh)
+bash bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
 ```
 x-ui enable
